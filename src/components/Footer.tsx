@@ -21,11 +21,9 @@ export function Footer() {
 
           <div >
             <h4 className="text-white font-bold mb-4">Contact Us</h4>
-            
               <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
                   onlewa2025@gmail.com
               </a>
-          
           </div>
 
           
