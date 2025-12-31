@@ -21,8 +21,8 @@ const features = [{
   bg: 'bg-purple-400/10'
 }, {
   icon: Users,
-  title: 'Expert Instructors',
-  description: 'Learn directly from industry professionals with years of real-world experience.',
+  title: 'Get Hired',
+  description: 'We connect you with real job opportunities and help you land your dream job and work form Home.',
   color: 'text-green-400',
   bg: 'bg-green-400/10'
 }];
