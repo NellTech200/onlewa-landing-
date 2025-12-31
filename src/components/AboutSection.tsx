@@ -91,9 +91,10 @@ export function AboutSection() {
             duration: 0.8
           }} className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight">
               Bridging the Gap Between{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f7821A] to-orange-300">
-                Skills & Opportunity
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f7821A] to-orange-300 gap-2">
+                Tech Skills & Opportunities
               </span>
+               {' '}In Africa
             </motion.h1>
 
             <motion.p initial={{
@@ -106,7 +107,7 @@ export function AboutSection() {
             delay: 0.5,
             duration: 0.8
           }} className="text-xl md:text-2xl text-blue-200/80 max-w-4xl mx-auto leading-relaxed">
-              Young people worldwide want to gain tech skills, work remotely,
+              Young people in Africa want to gain tech skills, work remotely,
               and earn globally. But there's a massive gap between learning and
               landing real opportunities.
             </motion.p>
@@ -172,7 +173,7 @@ export function AboutSection() {
                   Our Solution
                 </h3>
                 <p className="text-blue-200/80 leading-relaxed mb-4">
-                  ONLEWA equips you with in-demand skills, rewards you as you
+                  ONLEWA equips you with Tech skills, rewards you as you
                   learn, and directly connects you to companies and freelance
                   opportunities worldwide.
                 </p>

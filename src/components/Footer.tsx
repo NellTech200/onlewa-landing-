@@ -27,21 +27,6 @@ export function Footer() {
                   Courses
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  Mentorship
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  For Business
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -53,16 +38,7 @@ export function Footer() {
                   About Us
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  Blog
-                </a>
-              </li>
+              
               <li>
                 <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
                   Contact
@@ -82,11 +58,6 @@ export function Footer() {
               <li>
                 <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
                   Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  Cookie Policy
                 </a>
               </li>
             </ul>

@@ -11,7 +11,7 @@ interface TimeLeft {
 export function ComingSoonSection() {
   // Set launch date (30 days from now for demo)
   const launchDate = new Date();
-  launchDate.setDate(launchDate.getDate() + 30);
+  launchDate.setDate(launchDate.getDate() + 100);
   const [timeLeft, setTimeLeft] = useState<TimeLeft>(calculateTimeLeft());
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -121,9 +121,9 @@ export function ComingSoonSection() {
         }} transition={{
           delay: 0.1
         }} className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Premium Mentorship <br />
+             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f7821A] via-orange-300 to-[#f7821A] bg-[length:200%_auto] animate-gradient">
-              Program Launching Soon
+              App Launching Soon
             </span>
           </motion.h2>
 
@@ -213,29 +213,7 @@ export function ComingSoonSection() {
               </p>
             </motion.div>}
 
-          {/* Trust Indicators */}
-          <motion.div initial={{
-          opacity: 0
-        }} whileInView={{
-          opacity: 1
-        }} viewport={{
-          once: true
-        }} transition={{
-          delay: 0.9
-        }} className="mt-16 flex flex-wrap justify-center gap-8 text-sm text-blue-300/60">
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-              <span>500+ Already Registered</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-[#f7821A] rounded-full animate-pulse"></div>
-              <span>Limited to 100 Spots</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
-              <span>Early Bird Discount Available</span>
-            </div>
-          </motion.div>
+          
         </div>
       </div>
 

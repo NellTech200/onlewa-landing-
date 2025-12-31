@@ -34,12 +34,12 @@ export function HeroContent() {
 
       {/* Headline */}
       <motion.h1 variants={itemVariants} className="text-4xl sm:text-5xl md:text-6xl font-bold text-white leading-tight mb-6 tracking-tight">
-        Learn Tech Skills. <br />
+        Learn Fast. <br />
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#f7821A] to-[#ffb066]">
-          Earn Money.
+          Earn Smart.
         </span>{' '}
         <br />
-        Get Certified.
+        Connect.Grow.
       </motion.h1>
 
       {/* Subheading */}
@@ -59,28 +59,6 @@ export function HeroContent() {
       </motion.div>
 
       {/* Trust Indicators */}
-      <motion.div variants={itemVariants} className="pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center gap-6 justify-center sm:justify-start">
-        <div className="flex items-center gap-2">
-          <div className="flex -space-x-3">
-            {[1, 2, 3, 4].map(i => <div key={i} className="w-10 h-10 rounded-full border-2 border-[#112650] bg-gray-300 overflow-hidden">
-                <img src={`https://i.pravatar.cc/100?img=${i + 10}`} alt="User" className="w-full h-full object-cover" />
-              </div>)}
-          </div>
-          <div className="text-left">
-            <div className="flex items-center gap-1">
-              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-              <span className="text-white font-bold">4.9/5</span>
-            </div>
-            <p className="text-xs text-blue-200">from 50k+ students</p>
-          </div>
-        </div>
-
-        <div className="hidden sm:block w-px h-10 bg-white/10"></div>
-
-        <div className="text-center sm:text-left">
-          <p className="text-2xl font-bold text-white">XAF 150M+</p>
-          <p className="text-xs text-blue-200">Total earnings paid out</p>
-        </div>
-      </motion.div>
+      
     </motion.div>;
 }
