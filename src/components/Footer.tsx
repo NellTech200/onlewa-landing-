@@ -1,5 +1,5 @@
 import React from 'react';
-import { Twitter, Instagram, Linkedin, Github } from 'lucide-react';
+import { Twitter, Instagram, Linkedin, Facebook } from 'lucide-react';
 export function Footer() {
   return <footer className="bg-[#050c1a] border-t border-white/10 pt-16 pb-8">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -101,14 +101,14 @@ export function Footer() {
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <Twitter size={20} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://www.instagram.com/onlewa?igsh=N2RjNnM4OXJkdXU1" className="text-gray-400 hover:text-white transition-colors">
               <Instagram size={20} />
             </a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Github size={20} />
+            <a href="https://www.facebook.com/share/17z4NQUUHm/" className="text-gray-400 hover:text-white transition-colors">
+              <Facebook size={20} />
             </a>
           </div>
         </div>
