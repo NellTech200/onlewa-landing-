@@ -19,49 +19,9 @@ export function Footer() {
             </p>
           </div>
 
-          <div>
-            <h4 className="text-white font-bold mb-4">Platform</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  Courses
-                </a>
-              </li>
-            </ul>
-          </div>
+          
 
-          <div>
-            <h4 className="text-white font-bold mb-4">Company</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  About Us
-                </a>
-              </li>
-              
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white font-bold mb-4">Legal</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  Terms of Service
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-gray-400 hover:text-[#f7821A] text-sm transition-colors">
-                  Privacy Policy
-                </a>
-              </li>
-            </ul>
-          </div>
+          
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
