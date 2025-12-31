@@ -45,7 +45,7 @@ export function HeroContent() {
       {/* Subheading */}
       <motion.p variants={itemVariants} className="text-lg sm:text-xl text-blue-100/80 mb-8 leading-relaxed max-w-lg mx-auto sm:mx-0">
         Master in-demand skills through bite-sized lessons and earn real money
-        while you learn. Join 50,000+ students building their future.
+        while you learn.
       </motion.p>
 
       {/* CTAs */}
