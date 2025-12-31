@@ -13,14 +13,14 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   const navLinks = [{
-    name: 'Features',
-    href: '#features'
+    name: 'About',
+    href: '#about'
   }, {
     name: 'How It Works',
     href: '#how-it-works'
   }, {
-    name: 'about',
-    href: '#testimonials'
+    name: 'Why-Us',
+    href: '#features'
   }];
   const scrollToSection = (href: string) => {
     setIsMobileMenuOpen(false);

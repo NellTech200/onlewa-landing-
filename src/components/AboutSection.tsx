@@ -19,7 +19,7 @@ export function AboutSection() {
     label: 'Skills Taught',
     value: '100+'
   }];
-  return <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-b from-[#050c1a] via-[#0a1630] to-[#112650] overflow-hidden">
+  return <section id="about" className=" relative min-h-screen flex items-center justify-center bg-gradient-to-b from-[#050c1a] via-[#0a1630] to-[#112650] overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 pointer-events-none">
         {/* Grid Pattern */}
