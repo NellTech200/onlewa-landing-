@@ -19,7 +19,7 @@ export function Navbar() {
     name: 'How It Works',
     href: '#how-it-works'
   }, {
-    name: 'Success Stories',
+    name: 'about',
     href: '#testimonials'
   }];
   const scrollToSection = (href: string) => {
