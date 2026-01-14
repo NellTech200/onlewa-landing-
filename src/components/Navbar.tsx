@@ -31,6 +31,9 @@ export function Navbar() {
       });
     }
   };
+
+  const [showPopup, setShowPopup] = useState(false);
+
   return <>
       <motion.nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-[#112650]/80 backdrop-blur-lg border-b border-white/10 py-4' : 'bg-transparent py-6'}`} initial={{
       y: -100
@@ -57,7 +60,9 @@ export function Navbar() {
             {navLinks.map(link => <button key={link.name} onClick={() => scrollToSection(link.href)} className="text-sm font-medium text-blue-100 hover:text-white transition-colors">
                 {link.name}
               </button>)}
-            <Button size="sm">Get Started</Button>
+            <Button size="sm" onClick={() => setShowPopup(true)}>
+              Get Started
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -83,11 +88,48 @@ export function Navbar() {
               {navLinks.map(link => <button key={link.name} onClick={() => scrollToSection(link.href)} className="text-xl font-medium text-white hover:text-[#f7821A] transition-colors">
                   {link.name}
                 </button>)}
-              <Button size="lg" className="w-full max-w-xs mt-4">
+              <Button
+                size="lg"
+                className="w-full max-w-xs mt-4"
+                onClick={() => setShowPopup(true)}
+              >
                 Get Started
               </Button>
             </div>
           </motion.div>}
       </AnimatePresence>
+
+      <AnimatePresence>
+  {showPopup && (
+    <motion.div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/60"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
+      <motion.div
+        className="bg-white rounded-xl p-6 max-w-sm w-full text-center"
+        initial={{ scale: 0.9 }}
+        animate={{ scale: 1 }}
+        exit={{ scale: 0.9 }}
+      >
+        <h2 className="text-lg font-bold text-gray-800">
+          Coming Soon 🚀
+        </h2>
+        <p className="text-gray-600 mt-2">
+          The App is launching soon! Stay tuned for updates and be the first to know when we go live.
+        </p>
+
+        <Button
+          className="mt-4 w-full"
+          onClick={() => setShowPopup(false)}
+        >
+          Close
+        </Button>
+      </motion.div>
+    </motion.div>
+  )}
+</AnimatePresence>
+
     </>;
 }
